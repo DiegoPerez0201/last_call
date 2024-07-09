@@ -1,0 +1,26 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "suite_submotivo_atencion",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "submotivo_atencion",
+        "regex": "^[\\w\\s]+\\$[\\w\\s]+(,[\\w\\s]+\\$[\\w\\s]+)*$"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_match_regex",
+      "kwargs": {
+        "column": "id_submotivo",
+        "regex": "^(\\d+\\$\\d+)(,\\d+\\$\\d+)*$"
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.18.15"
+  }
+}
