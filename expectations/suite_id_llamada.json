@@ -1,18 +1,18 @@
 {
   "data_asset_type": null,
-  "expectation_suite_name": "suite_dni_ejecutivo",
+  "expectation_suite_name": "suite_id_llamada",
   "expectations": [
     {
       "expectation_type": "expect_column_values_to_match_regex",
       "kwargs": {
-        "column": "dni_ejecutivo",
-        "regex": "^(\\d{7,8})-(\\w{1})$"
+        "column": "id_llamada",
+        "regex": "^C\\d{37,38}$"
       },
       "meta": {}
     }
   ],
   "ge_cloud_id": null,
   "meta": {
-    "great_expectations_version": "0.18.15"
+    "great_expectations_version": "0.18.18"
   }
 }

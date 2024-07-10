@@ -1,4 +1,3 @@
-import great_expectations as ge
 import pandas as pd
 
 df_csv = pd.read_csv('./data/demo_web_diego-2024-07-08T00_00_00.000Z-a-2024-07-08T00_00_00.000Z-ultimo-estado-Y7dDOM~Roa.csv', delimiter=';')
