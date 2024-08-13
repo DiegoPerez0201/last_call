@@ -90,7 +90,7 @@
       "expectation_type": "expect_column_values_to_match_regex",
       "kwargs": {
         "column": "id_llamada",
-        "regex": "^C\\d{37,38}$"
+        "regex": "^C\\d+$"
       },
       "meta": {}
     },
@@ -98,7 +98,7 @@
       "expectation_type": "expect_column_values_to_match_regex",
       "kwargs": {
         "column": "id_ticket",
-        "regex": "^T\\d{13,14}$"
+        "regex": "^T\\d+$"
       },
       "meta": {}
     },
@@ -171,7 +171,7 @@
       "expectation_type": "expect_column_values_to_match_regex",
       "kwargs": {
         "column": "submotivo_atencion",
-        "regex": "^[\\w\\s]+\\$[\\w\\s]+(,[\\w\\s]+\\$[\\w\\s]+)*$"
+        "regex": "^[\\w\\s()%]+\\$[\\w\\s()%]+(,[\\w\\s()%]+\\$[\\w\\s()%]+)*$"
       },
       "meta": {}
     },

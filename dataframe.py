@@ -1,6 +1,6 @@
 import pandas as pd
 
-df_csv = pd.read_csv('./data/demo_web_diego-2024-07-08T00_00_00.000Z-a-2024-07-08T00_00_00.000Z-ultimo-estado-Y7dDOM~Roa.csv', delimiter=';')
+df_csv = pd.read_csv('./data/AFP_HABITAT_MONEDA-2024-04-01T00_00_00.000Z-a-2024-07-31T00_00_00.000Z-ultimo-estado-QmgUtJPAeP.csv', delimiter=';')
 
 df_csv.rename(columns={
     'ID Ticket': 'id_ticket',
